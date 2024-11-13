@@ -1,31 +1,58 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
-    background-color: #282828;
-    color: white;
-}
-
-#player {
+  }
+  
+  .container {
     text-align: center;
-}
-
-button {
+    max-width: 600px;
+  }
+  
+  #search-container {
+    margin-top: 20px;
+  }
+  
+  #search-input {
     padding: 10px;
-    margin: 5px;
+    width: 70%;
     border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-#loginButton {
+    border-radius: 5px;
+  }
+  
+  #search-button, #login-button {
+    padding: 10px 20px;
+    margin-top: 10px;
     background-color: #1DB954;
     color: white;
-}
-
-#controls {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #results {
     margin-top: 20px;
-}
+  }
+  
+  .track {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .track img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  
+  #player iframe {
+    margin-top: 20px;
+  }
+  
